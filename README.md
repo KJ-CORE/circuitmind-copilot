@@ -1,14 +1,14 @@
-# ⚡ CircuitMind Design Co-pilot
+#  CircuitMind Design Co-pilot
 
 > A natural-language AI co-pilot for electronics circuit design — powered by NVIDIA Nemotron-3, LangGraph, FastAPI, and RAG.
 
 Describe your electronics project in plain English and CircuitMind will generate:
-- ✅ **System Requirements** — Microcontroller, sensors, actuators, communication, power specs
-- ✅ **Bill of Materials (BOM)** — Recommended components with reasons and part numbers
-- ✅ **Physical Pin Connections** — Complete wiring diagram table
-- ✅ **Electrical Validation** — Detects voltage mismatches, GPIO conflicts, missing pull-ups (with self-healing loop)
-- ✅ **Production Firmware** — Compilable Arduino/ESP32 C++ code
-- ✅ **PDF + `.ino` Export** — Packaged under `project/<uuid>/`
+-  **System Requirements** — Microcontroller, sensors, actuators, communication, power specs
+-  **Bill of Materials (BOM)** — Recommended components with reasons and part numbers
+-  **Physical Pin Connections** — Complete wiring diagram table
+-  **Electrical Validation** — Detects voltage mismatches, GPIO conflicts, missing pull-ups (with self-healing loop)
+-  **Production Firmware** — Compilable Arduino/ESP32 C++ code
+-  **PDF + `.ino` Export** — Packaged under `project/<uuid>/`
 
 ---
 
