@@ -1,0 +1,49 @@
+# ── Secrets ────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual Environments ────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Databases ───────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Test / CI caches ────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# ── Project exports (user-generated output) ─────────────────
+project/
+temp_datasheets/
+
+# ── IDE / Editor ────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*~
+
+# ── OS ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
